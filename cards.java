@@ -1,20 +1,18 @@
 import java.util.ArrayList;
 import java.util.Random;
 
+//This class is from a previous project I worked on.
 public class Cards {
 
     public ArrayList<String> arrDeck = new ArrayList<String>();
     private Random random = new Random();
 
-
     // add 52 cards from number and suit (e.g. 13-Clubs)
     public Cards() {
 
-        // add suit spades and cards 1-13
         for (int i = 0; i < 13; i++) {
             arrDeck.add((i+1) + "-Spades");
         }
-        // add suit spades and cards 1-13
         for (int i = 0; i < 13; i++) {
             arrDeck.add((i+1) + "-Clubs");
         }
