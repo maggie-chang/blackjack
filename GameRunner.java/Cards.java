@@ -7,20 +7,20 @@ public class Cards {
     public ArrayList<String> arrDeck = new ArrayList<String>();
     private Random random = new Random();
 
-    // add 52 cards from number and suit (e.g. 13-Clubs)
+    // add 52 cards from number and suit (e.g. 13-C)
     public Cards() {
 
         for (int i = 0; i < 13; i++) {
-            arrDeck.add((i+1) + "-Spades");
+            arrDeck.add((i+1) + "-S"); // Spades
         }
         for (int i = 0; i < 13; i++) {
-            arrDeck.add((i+1) + "-Clubs");
+            arrDeck.add((i+1) + "-C"); // Clubs
         }
         for (int i = 0; i < 13; i++) {
-            arrDeck.add((i+1) + "-Hearts");
+            arrDeck.add((i+1) + "-H"); // Hearts
         }
         for (int i = 0; i < 13; i++) {
-            arrDeck.add((i+1) + "-Diamonds");
+            arrDeck.add((i+1) + "-D"); // Diamonds
         }
     }
 

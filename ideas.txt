@@ -1,2 +1,5 @@
 - cards class: creates 52 cards into an ArrayList
-- Players class: l  
+--> if time: organize method for cards (suits and ordered card#)
+- Players class: 1 player, 3 "bots"
+--> if time: create an algorithm for bots to 
+- Game: 13 "rounds" per game, player with 2 of clubs start
